@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #575757;
+    font-family: 'Inconsolata', sans-serif;
+}
+.content {
+    background-color: #fff;
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    padding: 0 40px;
+}
+.content h2 {
+    padding: 20px 0;
+    margin: 0;
+}
+input.addNote {
+    line-height: 24px;
+    width: 80%;
+    font-size: 16px;
+}
+.notes {
+    margin: 20px 0;
+    padding: 0;
+}
+.notes .note{
+    list-style: none;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #dfdfdf;
+    width: 80%;
+    box-sizing: border-box;
+}
+.notes .note.checked{
+    background-color: #f2f2f2;
+    text-decoration:line-through;
+}
+.note .status {
+    float: right;
+    margin-right: 10px;
+}
